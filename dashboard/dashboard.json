@@ -1,0 +1,875 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1",
+      "creationTime": 1561668696216,
+      "dashboardNavigations": {
+         "660b411b-8d0c-49e5-9390-3f420ca04e29": [{
+            "id": "b15e9ef3-0608-410b-809f-384f63f169b0",
+            "selected": true,
+            "widgets": []
+         }],
+         "bbc34e05-264e-474f-87fb-b9be2dc59940": [{
+            "id": "b15e9ef3-0608-410b-809f-384f63f169b0",
+            "selected": true,
+            "widgets": ["317b7ae9-4605-47a1-8864-040a5d0a7062"]
+         }]
+      },
+      "description": "",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": false,
+      "homeTab": false,
+      "id": "d6f4cd08-7410-4ce2-a393-4d27c0806c3a",
+      "importAttempts": 0,
+      "importComplete": true,
+      "isDefault": false,
+      "locked": false,
+      "name": "Active Directory Overview",
+      "rank": 78,
+      "shared": false,
+      "states": [],
+      "temporary": false,
+      "userId": "7c8a7242-7625-4bd2-8c95-0c1a3788e4e2",
+      "widgetInteractions": [
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "660b411b-8d0c-49e5-9390-3f420ca04e29",
+            "widgetIdReceiver": "eee1c960-fe90-40e6-a766-3c54ab60d3ec"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "660b411b-8d0c-49e5-9390-3f420ca04e29",
+            "widgetIdReceiver": "4495c630-2a20-401d-975e-a66332f36d4d"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "660b411b-8d0c-49e5-9390-3f420ca04e29",
+            "widgetIdReceiver": "be1960ec-e8f5-40f1-8482-3479c724dabd"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "660b411b-8d0c-49e5-9390-3f420ca04e29",
+            "widgetIdReceiver": "23547990-a551-4b5d-9b18-a022d77fa6e0"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "660b411b-8d0c-49e5-9390-3f420ca04e29",
+            "widgetIdReceiver": "10918ab2-fa8e-4ebb-af88-4caffaabb1bc"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "660b411b-8d0c-49e5-9390-3f420ca04e29",
+            "widgetIdReceiver": "27be1abe-9435-427d-b307-e0f4f663a71a"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "660b411b-8d0c-49e5-9390-3f420ca04e29",
+            "widgetIdReceiver": "bbc34e05-264e-474f-87fb-b9be2dc59940"
+         }
+      ],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "filterMode": "tagPicker",
+               "mode": "all",
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resource": [],
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": true},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:0_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:0_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "Choose AD Servers"
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 5,
+               "x": 1,
+               "y": 1
+            },
+            "height": 210,
+            "id": "660b411b-8d0c-49e5-9390-3f420ca04e29",
+            "states": [
+               {
+                  "key": "permResGrid_widget_d6f4cd08-7410-4ce2-a393-4d27c0806c3a_660b411b-8d0c-49e5-9390-3f420ca04e29",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%255Eo%25253Aid%25253Ds%2525253Ah5%255Eo%25253Aid%25253Ds%2525253Ah6%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_d6f4cd08-7410-4ce2-a393-4d27c0806c3a_660b411b-8d0c-49e5-9390-3f420ca04e29",
+                  "value": "b%3A1"
+               }
+            ],
+            "title": "Choose AD Servers",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 3,
+               "boxHeight": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "labelSize": 16,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel15287-1",
+                        "isStringMetric": false,
+                        "label": "Cache Hit",
+                        "link": "",
+                        "metricKey": "Database.Cache.Percent.Hit",
+                        "metricName": "Database Cache % Hit",
+                        "metricUnitId": "percent",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Active Directory Database",
+                        "unit": "%",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel15287-2",
+                        "isStringMetric": false,
+                        "label": "Page Faults/S",
+                        "link": "",
+                        "metricKey": "Database.Page.Faults.persec",
+                        "metricName": "Database Cache Page Faults/sec",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Active Directory Database",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel15287-3",
+                        "isStringMetric": false,
+                        "label": "Cache Size",
+                        "link": "",
+                        "metricKey": "Database.Cache.Size",
+                        "metricName": "Database Cache Size",
+                        "metricUnitId": "gb",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Active Directory Database",
+                        "unit": "GB",
+                        "yellowBound": null
+                     }
+                  ],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "oldMetricValues": false,
+               "periodLength": null,
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": -1},
+               "resInteractionMode": null,
+               "resource": [],
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Database",
+               "valueSize": 24,
+               "visualTheme": 4
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 3,
+               "x": 10,
+               "y": 1
+            },
+            "height": 210,
+            "id": "eee1c960-fe90-40e6-a766-3c54ab60d3ec",
+            "title": "Database",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 3,
+               "boxHeight": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "labelSize": 16,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel20325-1",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "Dynamic.Update.Received",
+                        "metricName": "Dynamic Update Received",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Active Directory DNS",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel20325-2",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "Dynamic.Update.Rejected",
+                        "metricName": "Dynamic Update Rejected",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Active Directory DNS",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel20325-3",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "Recursive.Queries",
+                        "metricName": "Recursive Queries",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Active Directory DNS",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel20325-4",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "Recursive.Query.Failure",
+                        "metricName": "Recursive Queries Failure",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Active Directory DNS",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel20325-5",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "Secure.Update.Failure",
+                        "metricName": "Secure Update Failure",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Active Directory DNS",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel20325-6",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "Total.Query.Received",
+                        "metricName": "Total Query Received",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Active Directory DNS",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel20325-7",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "Total.Response.Sent",
+                        "metricName": "Total Response Sent",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Active Directory DNS",
+                        "unit": null,
+                        "yellowBound": null
+                     }
+                  ],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "oldMetricValues": false,
+               "periodLength": null,
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": -1},
+               "resInteractionMode": null,
+               "resource": [],
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "DNS",
+               "valueSize": 24,
+               "visualTheme": 4
+            },
+            "gridsterCoords": {
+               "h": 9,
+               "w": 5,
+               "x": 1,
+               "y": 5
+            },
+            "height": 495,
+            "id": "4495c630-2a20-401d-975e-a66332f36d4d",
+            "title": "DNS",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 2,
+               "boxHeight": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "labelSize": 16,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel23857-1",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "Database.Lookups",
+                        "metricName": "Data Lookups",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "Active Directory DFS Replication",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel23857-2",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "Database.Commits",
+                        "metricName": "Database Commits",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "Active Directory DFS Replication",
+                        "unit": null,
+                        "yellowBound": null
+                     }
+                  ],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "oldMetricValues": false,
+               "periodLength": null,
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": -1},
+               "resInteractionMode": null,
+               "resource": [],
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "DFS Replication",
+               "valueSize": 24,
+               "visualTheme": 4
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 4,
+               "x": 6,
+               "y": 1
+            },
+            "height": 210,
+            "id": "be1960ec-e8f5-40f1-8482-3479c724dabd",
+            "title": "DFS Replication",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 3,
+               "boxHeight": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "labelSize": 16,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel26007-1",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "Avg..Response.Time",
+                        "metricName": "Avg Response Time",
+                        "metricUnitId": -1,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:4_::_",
+                        "resourceKindName": "Active Directory DFSN",
+                        "unit": "Auto",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel26007-2",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "Requests.Failed",
+                        "metricName": "Requests Failed",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:4_::_",
+                        "resourceKindName": "Active Directory DFSN",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel26007-3",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "Requests.Processed",
+                        "metricName": "Requests Processed",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:4_::_",
+                        "resourceKindName": "Active Directory DFSN",
+                        "unit": null,
+                        "yellowBound": null
+                     }
+                  ],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "oldMetricValues": false,
+               "periodLength": null,
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": -1},
+               "resInteractionMode": null,
+               "resource": [],
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "DFS NameSpace",
+               "valueSize": 24,
+               "visualTheme": 4
+            },
+            "gridsterCoords": {
+               "h": 3,
+               "w": 4,
+               "x": 6,
+               "y": 5
+            },
+            "height": 153,
+            "id": "23547990-a551-4b5d-9b18-a022d77fa6e0",
+            "title": "DFS NameSpace",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 3,
+               "boxHeight": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "labelSize": 16,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel27487-1",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "ds_instances:NTDS|Base.Searches.persec",
+                        "metricName": "Directory Services:NTDS|Base Searches persec",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:5_::_",
+                        "resourceKindName": "Active Directory Services",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel27487-2",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "ds_instances:NTDS|LDAP.Writes.persec",
+                        "metricName": "Directory Services:NTDS|LDAP Writes/sec",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:5_::_",
+                        "resourceKindName": "Active Directory Services",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel27487-3",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "ds_instances:NTDS|Database.adds.persec",
+                        "metricName": "Directory Services:NTDS|Database adds persec",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:5_::_",
+                        "resourceKindName": "Active Directory Services",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel27487-4",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "ds_instances:NTDS|Database.deletes.persec",
+                        "metricName": "Directory Services:NTDS|Database deletes persec",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:5_::_",
+                        "resourceKindName": "Active Directory Services",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel27487-5",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "ds_instances:NTDS|LDAP.Active.Threads",
+                        "metricName": "Directory Services:NTDS|LDAP Active Threads",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:5_::_",
+                        "resourceKindName": "Active Directory Services",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel27487-6",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "ds_instances:NTDS|LDAP.Client.Sessions",
+                        "metricName": "Directory Services:NTDS|LDAP Client Sessions",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:5_::_",
+                        "resourceKindName": "Active Directory Services",
+                        "unit": null,
+                        "yellowBound": null
+                     }
+                  ],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "oldMetricValues": false,
+               "periodLength": null,
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": -1},
+               "resInteractionMode": null,
+               "resource": [],
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Directory Services",
+               "valueSize": 24,
+               "visualTheme": 4
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 3,
+               "x": 10,
+               "y": 8
+            },
+            "height": 324,
+            "id": "10918ab2-fa8e-4ebb-af88-4caffaabb1bc",
+            "title": "Directory Services",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 3,
+               "boxHeight": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "labelSize": 16,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel29243-1",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "Digest.Authentications",
+                        "metricName": "Digest Authentications",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:6_::_",
+                        "resourceKindName": "Active Directory Security System-Wide Statistics",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel29243-2",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "NTLM.Authentications",
+                        "metricName": "NTLM Authentications",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:6_::_",
+                        "resourceKindName": "Active Directory Security System-Wide Statistics",
+                        "unit": null,
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel29243-3",
+                        "isStringMetric": false,
+                        "link": "",
+                        "metricKey": "Kerberos.Authentications",
+                        "metricName": "Kerberos Authentications",
+                        "metricUnitId": null,
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:6_::_",
+                        "resourceKindName": "Active Directory Security System-Wide Statistics",
+                        "unit": null,
+                        "yellowBound": null
+                     }
+                  ],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "oldMetricValues": false,
+               "periodLength": null,
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": -1},
+               "resInteractionMode": null,
+               "resource": [],
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Directory Services",
+               "valueSize": 24,
+               "visualTheme": 4
+            },
+            "gridsterCoords": {
+               "h": 3,
+               "w": 3,
+               "x": 10,
+               "y": 5
+            },
+            "height": 153,
+            "id": "27be1abe-9435-427d-b307-e0f4f663a71a",
+            "title": "Directory Services",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": "1,1",
+               "filterMode": "tagPicker",
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "resourceId": null,
+               "resourceName": null,
+               "selfProvider": {"selfProvider": false},
+               "tagFilter": null,
+               "title": "Drilldown (Advanced)",
+               "traversalSpecId": ""
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 4,
+               "x": 6,
+               "y": 8
+            },
+            "height": 324,
+            "id": "bbc34e05-264e-474f-87fb-b9be2dc59940",
+            "states": [
+               {
+                  "key": "perm_ResourceRelationshipTree_widget_d6f4cd08-7410-4ce2-a393-4d27c0806c3a_bbc34e05-264e-474f-87fb-b9be2dc59940",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_d6f4cd08-7410-4ce2-a393-4d27c0806c3a_bbc34e05-264e-474f-87fb-b9be2dc59940",
+                  "value": "b%3A1"
+               }
+            ],
+            "title": "Drilldown (Advanced)",
+            "type": "ResourceRelationshipAdvanced"
+         }
+      ]
+   }],
+   "entries": {"resourceKind": [
+      {
+         "adapterKindKey": "APPOSUCP",
+         "internalId": "resourceKind:id:5_::_",
+         "resourceKindKey": "activedirectory_services"
+      },
+      {
+         "adapterKindKey": "APPOSUCP",
+         "internalId": "resourceKind:id:4_::_",
+         "resourceKindKey": "activedirectory_dfsn"
+      },
+      {
+         "adapterKindKey": "APPOSUCP",
+         "internalId": "resourceKind:id:0_::_",
+         "resourceKindKey": "activedirectory"
+      },
+      {
+         "adapterKindKey": "APPOSUCP",
+         "internalId": "resourceKind:id:2_::_",
+         "resourceKindKey": "activedirectory_dns"
+      },
+      {
+         "adapterKindKey": "APPOSUCP",
+         "internalId": "resourceKind:id:3_::_",
+         "resourceKindKey": "activedirectory_dfs_replication"
+      },
+      {
+         "adapterKindKey": "APPOSUCP",
+         "internalId": "resourceKind:id:1_::_",
+         "resourceKindKey": "activedirectory_database"
+      },
+      {
+         "adapterKindKey": "APPOSUCP",
+         "internalId": "resourceKind:id:6_::_",
+         "resourceKindKey": "activedirectory_security"
+      }
+   ]},
+   "uuid": "2043ea2a-09de-46fc-996f-9b7cb896867b"
+}
